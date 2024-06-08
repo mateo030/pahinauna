@@ -1,0 +1,217 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.open-sans{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+.open-sans-medium{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+.open-sans-semibold{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+nav{
+    height: 150;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+nav a{
+    font-size: 24px;
+    padding-left: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    padding-right: 15rem;
+}
+
+.hero{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5rem;
+}
+
+.hero-container h1{
+    font-size: 26px;
+}
+
+.overview{
+    background-color:rgb(247, 247, 247);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.container,
+.containertwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 70%
+}
+
+.containertwo{
+    padding-top: 4rem;
+}
+
+.container h1,
+.containertwo h1{
+    font-size: 30px;
+}
+
+.container p,
+.containertwo p{
+    font-size: 20px;
+}
+
+iframe{
+    padding-top: 4rem;
+    width: 100%;
+}
+
+.book{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.book-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+button{
+    font-size: 24px;
+    border: none;
+    background-color: rgb(110, 18, 18);
+    color: white;
+    padding: 15px 32px;
+}
+
+footer{
+    text-align: center;
+    margin-top: auto;
+}
+
+
+/* --------------------------Plans-------------------------- */
+
+
+.plans{
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+
+/* --------------------------Contact-------------------------- */
+
+
+.contact-h1{
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.contact-h1 h1{
+    font-size: 32px;
+}
+
+.contact-container h2{
+    text-align: center;
+}
+
+
+.contact-container{
+    display:flex;
+    justify-content: space-around;
+}
+
+
+input{
+    width: 300%;
+    padding: 20px 40px;
+    margin: 16px 0;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+
+select{
+    width: 300%;
+    padding: 20px 40px;
+    margin: 16px 0;
+    border: 2px solid #ccc;
+}
+
+
+
+textarea{
+    width: 300%;
+    padding: 16px 40px;
+    margin: 16px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    resize: none;
+}
+
+input[type=submit]{
+    width: auto;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+
+.contact-details p{
+    font-size: 20px;
+    margin: 6px 2px;
+}
+
+.contact-details{
+    text-align: center;
+}
